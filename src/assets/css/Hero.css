@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-container{
+    width: 100%;
+}
+.hero-container .max-width{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 6rem;
+    padding-bottom: 1rem;
+    padding-top: 8rem;
+}
+.hero-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+}
+.img-container{
+    width: 50%;
+    overflow: hidden;
+}
+.hero-img{
+    width: 31rem;
+}
+.hero-title{
+    color: #3F4156;
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    width: 10rem;
+    line-height: 4.5rem;
+}
+.hero-title::after{
+    content: 'inteligentes';
+    display: block;
+    color: #21AE00;
+}
+.hero-subtitle{
+    color: #5B5E7C;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    width: 28rem;
+}
+.hero-button{
+    letter-spacing: -1px;
+    background-color: #21AE00;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    margin-top: 8px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

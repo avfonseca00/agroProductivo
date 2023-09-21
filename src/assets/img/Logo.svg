@@ -1,0 +1,16 @@
+<svg width="48" height="39" viewBox="0 0 48 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Logo">
+<path id="Vector 1" d="M26.4036 38.3027C21.4333 27.7218 22.7013 21.3682 42.0915 12.0234C42.0765 31.4625 38.7525 37.3394 26.4036 38.3027Z" fill="url(#paint0_linear_0_56)"/>
+<path id="Vector 2" d="M26.5439 37.8456C11.7126 34.4305 6.07468 28.2287 11.2504 2C31.4697 17.2024 35.0314 25.0386 26.5439 37.8456Z" fill="url(#paint1_linear_0_56)" stroke="white" stroke-width="2"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_56" x1="31.3804" y1="14.5276" x2="36.844" y2="37.8974" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00EF35"/>
+<stop offset="1" stop-color="#00841D"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_56" x1="5.62519" y1="14.4121" x2="34.1455" y2="27.3375" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00EF35"/>
+<stop offset="1" stop-color="#00841D"/>
+</linearGradient>
+</defs>
+</svg>

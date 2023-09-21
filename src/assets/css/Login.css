@@ -1,0 +1,37 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form{
+    background-color: white;
+    width: 300px;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.center{
+    text-align: center;
+}
+a{
+    color: #10C338;
+}
+a:hover{
+    color: #42e465;
+}
+/* .ant-button{
+    color: white;
+    background-color: #10C338;
+}
+.ant-button:hover{
+    background-color: #42e465!important;
+}
+.ant-input{
+    border-color: #10C338;
+} */

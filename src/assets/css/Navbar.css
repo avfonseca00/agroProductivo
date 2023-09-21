@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+@media screen and (min-width: 1200px) {
+    .nav{
+        font-family: 'Montserrat';
+        z-index: 20;
+        background-color: white;
+        position: fixed;
+        width: 100%;
+    }
+    .nav .max-width{
+        max-width: 1100px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        border-bottom: 1px solid #d9d9d9;
+    }
+    .izq{
+        list-style: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0!important;
+    }
+    .izq .menu{
+        margin: 0;
+    }
+    .izq .menu li{
+        display: inline-flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .menu_icon{
+        display: none;
+        padding: 12px;
+        cursor: pointer;
+        font-size: 20px;
+        color: #000235;
+    }
+    .menu_icon:hover{
+        background-color: #f0f0ff;
+        border-radius: 0.5rem;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -webkit-border-radius: 0.5rem;
+        -moz-border-radius: 0.5rem;
+        -ms-border-radius: 0.5rem;
+        -o-border-radius: 0.5rem;
+    }
+    .der{
+        float: right;
+        list-style: none;
+        display: flex;
+        align-items:  center;
+        justify-content: flex-start;
+        margin: 0;
+    }
+    .button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #21AE00;
+        color: white;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 1rem;
+        letter-spacing: -1px;
+        border-radius: 20px;
+        width: 6rem;
+        height: 2.1rem;
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+        border: 0;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+    }
+    .button:hover{
+        border: #21AE00 2px solid;
+        background-color: transparent;
+        color: #21AE00;
+    }
+    .der .button{
+        margin: 0 8px;
+    }
+    .izq .menu li a.menu-item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70px;
+        font-size: 1rem;
+        cursor: pointer;
+        color: #969696;
+        margin-right: 30px;
+        text-decoration: none;
+        transition: color 0.2s ease-in-out;
+        -webkit-transition: color 0.2s ease-in-out;
+        -moz-transition: color 0.2s ease-in-out;
+        -ms-transition: color 0.2s ease-in-out;
+        -o-transition: color 0.2s ease-in-out;
+    }
+    .der a.plain-button{
+        text-decoration: none;
+        color: #3F4156;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+    }
+    .der a.plain-button:hover{
+        background-color: #f0f0ff;
+    }
+    .logo{
+        width: 12rem;
+        margin: 0 3rem 0 0rem;
+    }
+    a.active, a.menu-item:hover{
+        padding: 40px 0;
+        position: relative;
+        color: #21AE00!important;
+    }
+    a.active::before, a.menu-item:hover::before{
+        content: " ";
+        height: 4px;
+        width: 70px;
+        background-color: #21AE00;
+        position: absolute;
+        bottom: 8px;
+        transition: all 0.3s ease-in;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        -ms-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in;
+    }
+    @media screen and (max-width: 780px){
+        .menu_icon{
+            display: block;
+        }
+    }
+}

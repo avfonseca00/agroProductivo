@@ -1,0 +1,179 @@
+@font-face{
+    font-family: "Nucleo";
+    src: url("../fonts/Rubik.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    padding: 0 30px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+.navbar ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    height: 100%;
+    /* background-color: chocolate; */
+}
+.navbar ul li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 1.5em;
+    /* background-color: blueviolet; */
+}
+.user-account{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.avatar{
+    width: 2.4rem;
+    margin-right: 0.8rem;
+    border: #10C338 solid 2px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.user-data{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.navbar li div p{
+    margin: 0;
+    font-family: 'Nucleo';
+}
+.navbar ul li div p:nth-child(1){
+    color: #35396f;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+    /* background-color: blue; */
+}
+.navbar ul li div p:nth-child(2){
+    color: #8384b4;
+    font-size: 0.8rem;
+}
+.divider{
+    height: 70%;
+    border-right: 1px solid rgb(211, 211, 211);
+}
+.der{
+    
+}
+
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    width: 100%;
+    padding: 0 30px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+.icons:hover{
+    background-color: #8384b4;
+}
+
+.workspace{
+    display: flex;
+    background-color: #E6EBE8;
+    height: 100%;
+    width: 100%;
+}
+.sidebar{
+    padding: 10px 0;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.dragger_area{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    width: 100%;
+}
+:where(.css-dev-only-do-not-override-1fjb17x).ant-card .ant-card-body {
+    padding: 0 10px 10px 10px;
+}
+:where(.css-dev-only-do-not-override-1fjb17x).ant-layout .ant-layout-sider-light {
+    width: 300px;
+}
+.card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.imgCard{
+    width: 250px;
+    height: 170px;
+    background-size: contain;
+}
+.card_title{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+.card_descrip{
+    font-size: 0.8rem;
+    color: white;
+}
+/* .Menu{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+} */
+
+/*Data Section*/
+.map-section{
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.map-section .map{
+    width: 100%;
+    flex: 1;
+    background-color: #35396f;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+}
+.map-section .charts{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 20rem;
+    background-color: #fff;
+    padding: 0 12px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.map-section .charts-title{
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
