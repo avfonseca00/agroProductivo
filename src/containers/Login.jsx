@@ -5,10 +5,12 @@ import {MailOutlined, LockOutlined} from '@ant-design/icons';
 import 'antd/dist/reset.css';
 import '../assets/css/Login.css';
 import axios from 'axios';
-const svg1 = require("../assets/img/Start Vector 1.svg");
+import svg1 from "../assets/img/Start Vector 1.svg";
+import svglogo from "../assets/img/logotipo.svg";
+
 
 const Login = () => {
-  
+
   const [inputs, setInputs] = useState({
     email: "",
     password: ""
@@ -57,9 +59,10 @@ const Login = () => {
   <div className="main">
     <img className='start_svg1' src={svg1} alt='bg1'/>
     <img className='start_svg2' src={require("../assets/img/Start Vector 2.svg")} alt='bg2'/>
+
     <Form className='login-form' onSubmitCapture={(e) => onSubmit(e)}>
       <Form.Item className='center'>
-      <img src={require('../assets/img/logotipo.svg')} alt='logo'></img>
+      <img src={svglogo} alt='logo'></img>
       <br/><br/>
       </Form.Item>
       <Form.Item rules={[{required:true, message: "Por favor introduzca un correo",}]}>

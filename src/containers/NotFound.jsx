@@ -1,5 +1,4 @@
 import React from 'react';
-const Montserrat = require('../assets/fonts/Montserrat.ttf');
 
 const NotFound = () => {
     const style = {

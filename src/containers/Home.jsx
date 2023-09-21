@@ -1,8 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {useParams /* useNavigate */} from 'react-router';
-import {Col, Tooltip, Button, Row, Menu, Layout, Upload, message, Space, Card, Avatar, List} from 'antd';
-import {BellOutlined, DashboardOutlined, LogoutOutlined, PlusOutlined, HeartOutlined, ShareAltOutlined, MenuOutlined, SettingOutlined, InboxOutlined, AppstoreOutlined, PieChartOutlined} from '@ant-design/icons';
-import  {Bar}  from "@ant-design/plots/";
+import {Col, Tooltip, Button, Row, Menu, Layout, Upload, message, Card, Avatar, List} from 'antd';
+import {BellOutlined, DashboardOutlined, LogoutOutlined, PlusOutlined, HeartOutlined, ShareAltOutlined, MenuOutlined, InboxOutlined, PieChartOutlined} from '@ant-design/icons';
 import 'antd/dist/reset.css';
 import '../assets/css/Home.css';
 import logo from '../assets/img/logotipo.svg';
@@ -12,12 +11,9 @@ import { Content } from 'antd/es/layout/layout';
 import { Pie } from '@ant-design/plots/';
 import bgImg from '../assets/img/Laguna_Blanca.png';
 import CardImage from '../components/Card';
-import Map from './Map';
-const API_KEY = 'unmoQU4B83Uk8pA39BJB';
 
 const {Dragger} = Upload;
 const {Sider} = Layout;
-const {Meta} = Card;
 
 
 
@@ -193,21 +189,7 @@ const props = {
 };
 
 
-//List Data
-const listData = [
-    {
-        title: 'Ant Design Title 1',
-    },
-    {
-        title: 'Ant Design Title 2',
-    },
-    {
-        title: 'Ant Design Title 3',
-    },
-    {
-        title: 'Ant Design Title 4',
-    },
-];
+
 
 //Ajustando el tamaño de la pagina
 const [windowHeight, setWindowHeight] = useState(window.innerHeight);
